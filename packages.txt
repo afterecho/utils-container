@@ -10,4 +10,4 @@ jq
 python3
 netcat-traditional
 git
-dig
+dnsutils

@@ -1,0 +1,13 @@
+curl
+less
+tcpdump
+dnsutils
+vim-nox
+procps
+bash-completion
+man
+jq
+python3
+netcat-traditional
+git
+dig

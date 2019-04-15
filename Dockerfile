@@ -7,7 +7,7 @@ ADD pause /bin/pause
 ADD kubectl /bin/kubectl
 ADD bashrc.sh .bashrc
 ADD packages.txt packages.txt
-CMD /bin/pause
+CMD ["/bin/pause"]
 
 RUN apt-get update \
  && xargs -a packages.txt apt-get install -y --no-install-recommends \

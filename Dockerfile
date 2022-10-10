@@ -1,10 +1,11 @@
-FROM debian:buster
+FROM debian:bullseye
 
 USER root
 WORKDIR /root
 
 ADD pause /bin/pause
 ADD kubectl /bin/kubectl
+ADD modd /bin/modd
 ADD bashrc.sh .bashrc
 ADD packages.txt packages.txt
 CMD ["/bin/pause"]
